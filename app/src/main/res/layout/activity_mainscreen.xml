@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Mainscreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:text="Good Morning ^_^"
+        android:textColor="#212121"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:text=" Rise &amp; shine "
+        android:textColor="#212121"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/open"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="70dp"
+         android:background="@drawable/camira"
+        android:backgroundTint="#ea685e"/>
+
+
+    <ImageView
+        android:id="@+id/post"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/post"
+        android:backgroundTint="#ea685e" />
+
+
+</LinearLayout>
